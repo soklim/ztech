@@ -9,9 +9,6 @@ Route::get('/404error',function (){
     return view('admin.errors.error404');
 });
 
-Route::get('/no-video',function (){
-    return view('frontend.product.NoVideo');
-});
 
 //FrontEnd Route
 Route::get('/','HomePageController@index');
@@ -19,14 +16,14 @@ Route::get('/admin-sv','DashboardController@index');
 
 Auth::routes();
 
-Route::get('/brand-innisfree','InnisfreeController@index');
-Route::get('/brand-iope','iopeController@index');
-Route::get('/brand-laneige','laneigeController@index');
-Route::get('/brand-etude-house','etudehouseController@index');
-Route::get('/brand-other','OtherController@index');
-Route::get('/all-brand','AllBrandController@index');
-Route::get('/offer','OfferController@index');
-Route::get('/best&new-product','BestProductController@index');
+//Route::get('/brand-innisfree','InnisfreeController@index');
+//Route::get('/brand-iope','iopeController@index');
+//Route::get('/brand-laneige','laneigeController@index');
+//Route::get('/brand-etude-house','etudehouseController@index');
+//Route::get('/brand-other','OtherController@index');
+//Route::get('/all-brand','AllBrandController@index');
+//Route::get('/offer','OfferController@index');
+//Route::get('/best&new-product','BestProductController@index');
 Route::get('/about-us','AboutUsController@index');
 Route::get('/product-detail/{id}{category_id}{brand_id}', 'ProductDetailController@showproduct');
 Route::get('/promotion-detail/{id}', 'OfferController@details');

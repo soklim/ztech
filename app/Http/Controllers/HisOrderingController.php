@@ -2,13 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Product;
-use App\SlideShow;
-use App\SysStatic;
+use App\his_ordering;
 use Illuminate\Http\Request;
-use App\Promotion;
 
-class HomePageController extends Controller
+class HisOrderingController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,9 +15,6 @@ class HomePageController extends Controller
     public function index()
     {
         //
-       
-
-        return view("frontend.homepage.homepage");
     }
 
     /**
@@ -47,10 +41,10 @@ class HomePageController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\his_ordering  $his_ordering
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(his_ordering $his_ordering)
     {
         //
     }
@@ -58,10 +52,10 @@ class HomePageController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\his_ordering  $his_ordering
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(his_ordering $his_ordering)
     {
         //
     }
@@ -70,10 +64,10 @@ class HomePageController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\his_ordering  $his_ordering
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, his_ordering $his_ordering)
     {
         //
     }
@@ -81,10 +75,10 @@ class HomePageController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\his_ordering  $his_ordering
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(his_ordering $his_ordering)
     {
         //
     }

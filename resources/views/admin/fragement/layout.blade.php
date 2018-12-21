@@ -10,7 +10,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
     <a href="/admin-sv">
-        <img  src="/images/header/weone.png" style="width: 50px">
+        <img  src="/images/header/z.jpg" style="width: 50px">
     </a>
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -72,7 +72,7 @@
         <li class="nav-item">
             <a class="nav-link" href="{{route('sys_statics.index')}}">
                 <i class="far fa-edit"></i>
-                <span>Static Page</span>
+                <span>Control Item</span>
             </a>
         </li>
 
@@ -100,7 +100,7 @@
     <footer class="sticky-footer">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-                <span>Copyright ©weone 2018</span>
+                <span>© 2019. All Rights Reserved. Developed by SV Technologies</span>
             </div>
         </div>
     </footer>

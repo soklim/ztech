@@ -54,21 +54,13 @@
                     {!! Form::label('isPop','Popular:') !!}
                     {!! Form::select('isPop',[''=>'--Select--'] +  array('1' => 'Yes', '0' => 'No'),null,['class'=>'form-control','required']) !!}
                 </div>
-
-                <div class="form-group">
-                    {!! Form::label('order','Order:') !!}
-                    {!! Form::text('order',null,['class'=>'form-control','maxlength'=>'1']) !!}
-                </div>
+               
 
                 <div class="form-group">
                     {!! Form::label('desc','Description:') !!}
                     {!! Form::textarea('desc',null,['class'=>'form-control','required','maxlength'=>'300']) !!}
                 </div>
-
-                <div class="form-group">
-                    {!! Form::label('video','Path Video:') !!}
-                    {!! Form::text('video',null,['class'=>'form-control','maxlength'=>'300']) !!}
-                </div>
+              
 
                 <div class="form-group">
                     {!! Form::label('photo_id','Photo:') !!}

@@ -22,9 +22,7 @@ class CreateProductsTable extends Migration
             $table->string('pro_code',20)->nullable();
             $table->string('desc',2500)->nullable();
             $table->double('prices',10)->nullable();
-            $table->boolean('isPop',1)->default(0);
-            $table->string('video',500)->nullable();
-            $table->string('order')->nullable();
+            $table->boolean('isPop',1)->default(0);           
             $table->timestamps();
         });
     }

@@ -8,11 +8,9 @@ class SysStatic extends Model
 {
     //
     protected $fillable= [
-        'static_name',
-        'static_value_first',
-        'static_value_second',
-        'static_value_third',
-        'static_value_forth',
+        'control_name',
+        'value_en',
+        'value_kh',
         'photo_id'
     ];
 
